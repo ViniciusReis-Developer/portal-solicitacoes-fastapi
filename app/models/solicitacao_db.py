@@ -2,6 +2,8 @@ from datetime import datetime
 
 from sqlalchemy import String, Integer, DateTime, ForeignKey
 from sqlalchemy.orm import Mapped, mapped_column
+from sqlalchemy import ForeignKey
+from sqlalchemy.orm import relationship
 
 from app.database import Base
 
@@ -44,5 +46,9 @@ class Solicitacao(Base):
     owner_id: Mapped[int] = mapped_column(
         ForeignKey("users.id"),
         nullable=False,
-        index=True,
+    )
+
+    owner = relationship(
+        "User",
+        back_populates="solicitacoes"
     )

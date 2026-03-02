@@ -63,3 +63,16 @@ async def get_current_user(
         raise credentials_exception
 
     return user
+
+from fastapi import HTTPException
+
+async def get_current_admin(
+    current_user: User = Depends(get_current_user),
+):
+    if current_user.role != "admin":
+        raise HTTPException(
+            status_code=403,
+            detail="Acesso restrito a administradores"
+        )
+
+    return current_user

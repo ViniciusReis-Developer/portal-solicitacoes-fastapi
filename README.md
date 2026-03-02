@@ -1,22 +1,25 @@
-# Portal de Solicitações API 🚀
+# Portal de Solicitações
 
-API REST desenvolvida com FastAPI para gerenciamento de solicitações internas.
-
-## Funcionalidades
-- Criar solicitações
-- Listar solicitações
-- Buscar por ID
-- Atualizar solicitações
-- Remover solicitações
+Sistema Full Stack para gerenciamento de solicitações internas.
 
 ## Tecnologias
-- Python
 - FastAPI
-- Uvicorn
-- Pydantic
+- Python
+- SQLite
+- JWT Authentication
+- HTML + JavaScript
+- REST API
 
-## Executar o projeto
+## Funcionalidades
+✅ Cadastro e login de usuários  
+✅ Autenticação JWT  
+✅ CRUD de solicitações  
+✅ Controle de permissões (admin/user)  
+✅ Filtros e estatísticas  
+✅ Interface web simples consumindo API  
+
+## Como executar
 
 ```bash
+pip install -r requirements.txt
 uvicorn app.main:app --reload
-```

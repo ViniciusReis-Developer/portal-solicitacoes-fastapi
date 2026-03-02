@@ -1,5 +1,11 @@
 from datetime import datetime
 from pydantic import BaseModel
+from typing import Optional
+
+
+class AdminUpdateSolicitacao(BaseModel):
+    status: Optional[str] = None
+    responsavel: Optional[str] = None
 
 
 class SolicitacaoCreate(BaseModel):
