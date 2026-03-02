@@ -19,6 +19,22 @@ O projeto simula um ambiente corporativo onde usuários podem abrir solicitaçõ
 
 ---
 
+## 📸 Demonstração do Sistema
+
+### 🔐 Autenticação JWT
+![JWT Login](docs/jwt-login.png)
+
+### 📄 Documentação Swagger
+![Swagger](docs/swagger-overview.png)
+
+### ✅ CRUD de Solicitações
+![CRUD](docs/crud-request-created.png)
+
+### 💻 Interface Web
+![Frontend](docs/frontend-interface.png)
+
+---
+
 ## 🧱 Arquitetura
 
 Frontend (HTML + CSS + JavaScript)
