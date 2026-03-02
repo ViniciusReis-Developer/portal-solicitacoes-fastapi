@@ -21,19 +21,23 @@ O projeto simula um ambiente corporativo onde usuários podem abrir solicitaçõ
 
 ## 📸 Demonstração do Sistema
 
-## 📸 Demonstração do Sistema
-
 ### 🔐 Autenticação JWT
 ![JWT Login](docs/jwt-login.png)
 
-### 📄 Documentação Swagger
-![Swagger](docs/swagger.png)
+### 🔑 Autorização via Swagger
+![Authorization](docs/authorization.png)
+
+### 📄 Visão Geral da API (Swagger)
+![Swagger Overview](docs/swagger-overview.png)
 
 ### ✅ CRUD de Solicitações
-![CRUD](docs/crud.png)
+![CRUD Request Created](docs/crud-request-created.png)
 
 ### 💻 Interface Web
-![Frontend](docs/frontend.png)
+![Frontend Interface](docs/frontend-interface.png)
+
+### 🧪 Interface Web em Execução
+![Frontend Interface Teste](docs/frontend-interface-teste.png)
 
 ---
 
