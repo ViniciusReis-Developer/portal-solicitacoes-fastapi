@@ -61,11 +61,10 @@ portal-solicitacoes-fastapi/
 ├── frontend/
 │ └── index.html
 │
-├── .env
 ├── .gitignore
 ├── requirements.txt
-├── README.md
-└── solicitacoes.db
+└── README.md
+
 
 
 ---
